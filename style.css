@@ -1,0 +1,308 @@
+
+
+
+body
+{
+	font-family: 'Berlin Sans FB';
+	margin: auto;
+
+}
+
+													/*HEADER*/
+
+header
+{
+	background-color: rgb(105,43,21);
+	height: 234px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#icones
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+}
+
+													/*NAVIGATION*/
+nav
+{
+	background-color: rgb(205,2,6);
+	height: 81px;
+	border: 1px white solid;
+	box-shadow: 0px 16px 57px rgb(105,43,21);	
+	margin-bottom: 150px;
+}
+
+nav ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li
+{
+	display: inline-block;
+	width: 19%;
+	position: relative;
+}
+
+nav ul li a
+{
+	display: block;
+	text-align: center;
+	line-height: 81px;
+	text-decoration: none;
+	color: white;
+	font-size: 1.4em;
+}
+
+nav ul ul 
+{
+	display: none;
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+}
+
+nav ul ul li 
+{
+	display: block;
+	background-color: rgb(205,2,6);
+	width: 186px;
+	height: 53px;
+	margin-left: 19%;
+}
+
+nav ul ul li a
+{
+	text-align: center;
+	line-height: 53px;
+	font-size: 1.2em;
+}
+
+nav ul li:hover ul
+{
+	display: block;
+}
+
+nav ul li ul li:hover
+{
+	background-color: rgb(217,61,64);
+	font-weight: bold;
+}
+
+
+
+
+												/*FOOTER*/
+
+
+footer
+{
+	background-color: rgb(105,43,21);
+	height: 66px;
+}
+
+
+footer ul
+{
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+}
+
+footer ul li 
+{
+	text-align: center;
+	width: 12%;
+	margin: 0px;
+	padding: 0px;
+}
+
+footer ul li a
+{
+	
+	line-height: 66px;
+	text-decoration: underline;
+	color: white;
+	font-size: 1em;	
+}
+
+
+
+
+
+
+											/*CORPS page accueil*/
+
+h1
+{ 
+	
+	font-size: 2.2em;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: underline;
+	color: rgb(105,43,21);
+	text-align: center;
+	padding-bottom: 5px;
+	margin-bottom: 5%;
+	background: url('images/separateur.png') no-repeat bottom;
+ }
+
+.section_p1
+{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 5%;
+	text-align: center;
+	align-items: center;
+}
+
+.section_p1 img
+{
+	box-shadow: 6px 6px 2px rgb(205,2,6);
+}
+
+.section_p1 h2
+{
+	color: rgb(105,43,21);
+	position: relative;
+	bottom: 30px;
+}
+
+.section_p1 em
+{
+	font-family: 'Trajan Pro';
+	font-style: normal;
+	color: rgb(205,2,6);
+	background: url('images/souligne.png') no-repeat bottom;
+	padding-bottom: 15px;
+	position: relative;
+	top: 30px;
+}
+
+
+										/*CORPS page spactacles*/
+
+
+.section_p2
+{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-bottom: 8%;
+}
+
+.section_p2 a
+{
+	text-decoration: none;
+	font-size: 1.2em;
+	color: rgb(105,43,21);
+}
+
+
+
+										/*CORPS page fiche spactacle*/
+
+
+h2
+{
+	font-size: 2.2em;
+	color: rgb(105,43,21);
+	margin-left: 4%;
+}
+
+.section_p3
+{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 5%;
+}
+
+.section_p3 img
+{
+	height: 
+}
+
+.section_p3 article
+{ 
+	width: 58%;
+	text-align: justify;
+	margin-left: 2%;
+ } 
+
+.section_p3 aside 
+{
+	text-align: center;
+	margin-left: 2%;
+	
+}
+
+.section_p3 aside em
+{
+	font-style: normal;
+	color: rgb(205,2,6);
+}
+
+.section_p3 aside strong
+{
+	font-weight: normal;
+	color: rgb(105,43,21);
+}
+
+h3
+{
+	text-align: center;
+	color: rgb(105,43,21);
+	font-size: 1.6em;
+}
+
+.section_p3bis 
+{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-bottom: 10%;
+	margin-top: 4%;
+}	
+
+.section_p3bis p
+{
+	
+	background-color: rgb(205,2,6);
+	box-shadow: 4px 4px 6px rgb(105,43,21);
+	text-align: center;
+	line-height: 52px;
+	color: white;
+	height: 52px;
+	width: 257px;
+
+}
+
+.section_p3bis div
+{
+	margin-right: 5%;
+	margin-left: 5%;
+
+}
+
+.section_p3bis ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.section_p3bis a
+{
+	font-size: 1em;
+	color: black;
+	text-decoration: none;	
+}
