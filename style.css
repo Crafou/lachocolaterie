@@ -39,15 +39,17 @@ nav
 
 nav ul
 {
+	display: flex;
+	justify-content: space-around;
 	list-style-type: none;
-	margin: 0;
+	margin: auto;
 	padding: 0;
 }
 
 nav ul li
 {
 	display: inline-block;
-	width: 19%;
+	width: 186px;
 	position: relative;
 }
 
@@ -75,7 +77,6 @@ nav ul ul li
 	background-color: rgb(205,2,6);
 	width: 186px;
 	height: 53px;
-	margin-left: 19%;
 }
 
 nav ul ul li a
@@ -121,9 +122,8 @@ footer ul
 footer ul li 
 {
 	text-align: center;
-	width: 12%;
 	margin: 0px;
-	padding: 0px;
+	padding: 0px 30px;
 }
 
 footer ul li a
